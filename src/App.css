@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+* {
+    font-family: 'Red Hat Display', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+    color: inherit;
+    text-shadow: 2px 2px 5px grey;
+    transform: scale(1.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.align-center {
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.fs-big {
+    font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.w-18rem {
+    width: 18rem;
+}
+
+.ml-10 {
+    margin-left: 10%;
+}
+
+.nav-border {
+    border: 1px solid lightgray;
+    border-radius: 16px;
+}
+
+
+.bds-s {
+    border-style: solid;
+}
+
+.bdw-1px {
+    border-width: 1px;
+}
+
+.d-f{
+    display: flex;
+}
+
+.fxd-c {
+    flex-direction: column;
+}
+
+.fxd-r {
+    flex-direction: row;
+}
+
+.fxw-w {
+    flex-wrap: wrap;
+}
+
+.tiles img:hover {
+    opacity: 0.5;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.list-n{
+    list-style-type: none;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-a {
+    margin: auto;
+}
+
+.m-10px {
+    margin: 10px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1em {
+    padding: 1em;
+}
+
+.m-b-0 {
+    margin-bottom: none;
+}
+
+.m-t-1em {
+    margin-top: 1em;
+}
+
+.p-8px {
+    padding: 8px;
+}
+
+.p-10px {
+    padding: 10px;
+}
+
+.p-20px {
+    padding: 20px;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.td-n {
+    text-decoration: none;
+}
+.w-75{
+    width: 75%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #Projects-Apps{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+        justify-content: space-around;
+
+    }
 }
