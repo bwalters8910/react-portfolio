@@ -16,11 +16,8 @@ function Header() {
           <li>
             <a
               className="td-n"
-              href="mailto:brianwalters@u.northwestern.edu"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Email
+              href="#Contact">
+              Contact
             </a>
           </li>
           <li>
