@@ -24,8 +24,20 @@ a:hover {
     width: 18rem;
 }
 
+.w-33 {
+    width: 30rem;
+}
+
 .ml-10 {
     margin-left: 10%;
+}
+
+.ml-20 {
+    margin-left: 20%;
+}
+
+.ml-4px {
+    margin-left: 4px;
 }
 
 .nav-border {
@@ -157,4 +169,5 @@ a:hover {
         justify-content: space-around;
 
     }
+
 }

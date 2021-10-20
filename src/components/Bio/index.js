@@ -11,11 +11,16 @@ function Bio() {
           My experience meeting deadlines allows me to manage my time well and
           excel under pressure. I earned my B.S. from Western Illinois
           University and a certificate in Full Stack Web Development from
-          Northwestern University. I am self-motivated, always learning, and
-          never afraid to ask questions. I want to create new and exciting
-          experiences for users and can provide creative solutions to so. My
-          hobbies include sports, cooking, videogames, and live music. One thing
-          I can't live without is a good cup of coffee!
+          Northwestern University and have experience building applications
+          using CSS, HTML, JavaScript, JQuery, MySQL, MongoDB, React, Express
+          and more. I am self-motivated, always learning, and never afraid to
+          ask questions. I want to create new and exciting experiences for users
+          and can provide creative solutions to so. My hobbies include sports,
+          cooking, videogames, and live music. One thing I can't live without is
+          a good cup of coffee! Feel free to reach me at
+          <a className="ml-4px" href="mailto:brianwalters@u.northwestern.edu">
+            brianwalters@u.northwestern.edu
+          </a>.
         </p>
       </div>
     );
