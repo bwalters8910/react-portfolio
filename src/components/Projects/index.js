@@ -75,7 +75,7 @@ function Projects() {
               <h5 className="card-title d-f jc-c">Star-Crossed</h5>
               <p className="card-text">
                 A dating app for the literal stars. A fun app that allows users
-                to create profiles and find potential matches.
+                to create profiles and find potential matches. ***Still under construction***
               </p>
               <a
                 href="https://star-crossed-dating.herokuapp.com/"
@@ -169,7 +169,7 @@ function Projects() {
                 A React app that combines Jeopardy and Wheel of Fortune to
                 create a fun, interactive game where you are rewarded for
                 guessing all the correct letters. Most answers pertain to
-                specific jokes and terms from our bootcamp class 😊
+                specific jokes and terms from our bootcamp class 😊 ***Still under construction***
               </p>
               <a
                 href="https://project-hero-jwh.herokuapp.com/"
