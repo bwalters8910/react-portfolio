@@ -20,16 +20,6 @@ function Header() {
               Contact
             </a>
           </li>
-          <li>
-            <a
-              className="td-n"
-              href="https://docs.google.com/document/d/1vTswEbFfWeHIOnUFabfVsX41GRtWvoxvpRRh-9GbGKM/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-          </li>
         </ul>
       </nav>
     </div>
